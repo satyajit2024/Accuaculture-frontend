@@ -1,0 +1,67 @@
+/* this container hold MAPS And weatherdata */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contain {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 3fr 1fr;
+ margin-left: 110px;
+ margin-top: 95px;
+
+ 
+}
+
+.mapbox {
+
+  height: 400px;
+}
+
+.weatherbox {
+  margin-left:30px;
+}
+.weatherdata {
+  padding-left: 15px;
+  height: fit-content;
+}
+
+.tempheading {
+  font-size: 20px;
+  color: rgb(27, 136, 231);
+  font-weight: bold;
+}
+.data {
+  font-size: 20px;
+  font-weight: bold;
+}
+.tempretureimg {
+  background-color: black;
+  border-radius: 50%;
+  height: 75px;
+  margin-top: 10px;
+  padding: 8px;
+  margin: 10px 0 0 45px;
+  /* top,right,buttom,left */
+}
+.humidityimg {
+  background-color: black;
+  border-radius: 50%;
+  height: 75px;
+  margin: 10px 0 0 80px;
+  padding: 10px;
+}
+.windspeedimg {
+  background-color: rgb(8, 8, 8);
+  border-radius: 50%;
+  height: 75px;
+  padding: 10px;
+  margin: 10px 0 0 53px;
+}
+.chartcontainer{
+  
+  margin-left: 90px;
+  grid-template-columns: 2fr 2fr;
+}
